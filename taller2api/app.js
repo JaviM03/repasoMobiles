@@ -12,7 +12,7 @@ const mongoose = require('mongoose');
 
 mongoose.Promise = global.Promise;
 
-mongoose.connect("mongodb+srv://nextor:PASS@taller02-5lc27.mongodb.net/coins?retryWrites=true", {
+mongoose.connect("mongodb+srv://nextor:999o50TbqweFAOZv@taller02-5lc27.mongodb.net/coins?retryWrites=true", {
   useNewUrlParser: true
 }).then(()=>{
   console.log("Base de datos conectada");
